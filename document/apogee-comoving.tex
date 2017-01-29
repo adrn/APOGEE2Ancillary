@@ -4,6 +4,8 @@
 \usepackage{titling}
 \usepackage{amsmath,amssymb}
 \usepackage{authblk}
+\usepackage{longtable}
+\usepackage[T1]{fontenc}
 
 \setlength{\droptitle}{-10em}
 
@@ -23,14 +25,15 @@
 \section*{Co-Is}
 
 \begin{itemize}
-    \item Melissa Ness, Max Planck Institute for Astronomy, Germany
-    \item David W. Hogg, New York University, USA
+    \item Melissa Ness, Max Planck Institute for Astronomy, Germany \item David W. Hogg, New York University, USA
     \item Hans-Walter Rix, Max Planck Institute for Astronomy, Germany
 \end{itemize}
 
 \section*{External Collaborators: Requests for External Status}
 
-Adrian M. Price-Whelan: An EC request will be submitted with this proposal.
+Semyeng Oh, Adrian M. Price-Whelan: EC requests will be submitted with this proposal.
+
+Semyeong Oh:
 
 Adrian M. Price-Whelan has expertise in statistical inference and dynamical
 modeling of the Milky Way.
@@ -63,10 +66,26 @@ Wide binaries as dynamical tracers
 
 Wide binaries as test-beds for stellar models
 
-Sample 1: Pairs with a red giant member - observe all of these
+\section{Target Information}
 
-Sample 2: All other pairs
+We propose to observe 137 stars with $H>7$~mag within existing fields
+from two categories:
+\begin{itemize}
+  \item 65 pairs (130 stars) for which both of the member stars falls
+  within the existing fields
+  \item 7 additional stars for which the other star in the pairs is aleady
+  observed in APOGEE DR12
+\end{itemize}
+%
+There are 21 pairs in the first category whose angular separation is smaller
+than 72~arcseconds, the fiber collision threshold. However, given the
+brightnesso f these stars, they should be able to reach signal-to-noise ratio
+per resolution element over 100 with a single visit.
 
 Mention false-positive rate constraint from RAVE
+
+
+\input{targets.tex}
+
 
 \end{document}
